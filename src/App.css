@@ -1,7 +1,31 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
 
 .title, .nameInput, .nickname {
   margin: 50px 0;
+}
+
+.title {
+  font-family: 'Anton', sans-serif;
+  font-size: 75px;
+}
+
+.nickname {
+  font-size: 50px;
+  color: #f50057;
+}
+
+.nameInput Input {
+  font-size: 20px;
+}
+
+.MuiFormLabel-root.Mui-focused {
+  color: #f50057 !important;
+}
+
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #f50057 !important;
+}
+
+.submitButton {
+  text-align: center;
 }
