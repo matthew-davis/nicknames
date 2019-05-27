@@ -16,6 +16,8 @@ const App: React.FC = () => {
   // Write that syllable needs a declaration file written for it
   // Write a readme.md
 
+  // See test for using the cmudict and pulling out phonemes and stresses for words.
+
   // Improved version would use the CMU Pronunciation Dictionary to find phonemes as well as stress to get a better cadence
   // Another improvement would be a strength of nickname meter showing the grades
   // a final improvement would be to capture and surface the list of past nicknames that can be re brought up
